@@ -11,10 +11,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"code.google.com/p/go.net/html"
-	"code.google.com/p/go.text/encoding"
-	"code.google.com/p/go.text/encoding/charmap"
-	"code.google.com/p/go.text/transform"
+	"github.com/hashicorp/go.net/html"
+	"github.com/hashicorp/go.text/encoding"
+	"github.com/hashicorp/go.text/encoding/charmap"
+	"github.com/hashicorp/go.text/transform"
 )
 
 // Lookup returns the encoding with the specified label, and its canonical

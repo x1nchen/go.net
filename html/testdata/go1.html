@@ -602,7 +602,7 @@ into subdirectories. For instance, <code>utf8</code> and
 <code>utf16</code> now occupy subdirectories of <code>unicode</code>.
 Also, <a href="#subrepo">some packages</a> have moved into
 subrepositories of
-<a href="http://code.google.com/p/go"><code>code.google.com/p/go</code></a>
+<a href="http://github.com/hashicorp/go"><code>github.com/hashicorp/go</code></a>
 while <a href="#deleted">others</a> have been deleted outright.
 </p>
 
@@ -681,7 +681,7 @@ by hand.
 <p>
 Because they are not standardized, the packages under the <code>exp</code> directory will not be available in the
 standard Go 1 release distributions, although they will be available in source code form
-in <a href="http://code.google.com/p/go/">the repository</a> for
+in <a href="http://github.com/hashicorp/go/">the repository</a> for
 developers who wish to use them.
 </p>
 
@@ -767,7 +767,7 @@ and also the command <code>gotry</code>.
 <em>Updating</em>:
 Code that uses <code>container/vector</code> should be updated to use
 slices directly.  See
-<a href="http://code.google.com/p/go-wiki/wiki/SliceTricks">the Go
+<a href="http://github.com/hashicorp/go-wiki/wiki/SliceTricks">the Go
 Language Community Wiki</a> for some suggestions.
 Code that uses the other packages (there should be almost zero) will need to be rethought.
 </p>
@@ -776,7 +776,7 @@ Code that uses the other packages (there should be almost zero) will need to be 
 
 <p>
 Go 1 has moved a number of packages into other repositories, usually sub-repositories of
-<a href="http://code.google.com/p/go/">the main Go repository</a>.
+<a href="http://github.com/hashicorp/go/">the main Go repository</a>.
 This table lists the old and new import paths:
 
 <table class="codetable" frame="border" summary="Sub-repositories">
@@ -789,41 +789,41 @@ This table lists the old and new import paths:
 <tr>
 <td colspan="2"><hr></td>
 </tr>
-<tr><td>crypto/bcrypt</td> <td>code.google.com/p/go.crypto/bcrypt</tr>
-<tr><td>crypto/blowfish</td> <td>code.google.com/p/go.crypto/blowfish</tr>
-<tr><td>crypto/cast5</td> <td>code.google.com/p/go.crypto/cast5</tr>
-<tr><td>crypto/md4</td> <td>code.google.com/p/go.crypto/md4</tr>
-<tr><td>crypto/ocsp</td> <td>code.google.com/p/go.crypto/ocsp</tr>
-<tr><td>crypto/openpgp</td> <td>code.google.com/p/go.crypto/openpgp</tr>
-<tr><td>crypto/openpgp/armor</td> <td>code.google.com/p/go.crypto/openpgp/armor</tr>
-<tr><td>crypto/openpgp/elgamal</td> <td>code.google.com/p/go.crypto/openpgp/elgamal</tr>
-<tr><td>crypto/openpgp/errors</td> <td>code.google.com/p/go.crypto/openpgp/errors</tr>
-<tr><td>crypto/openpgp/packet</td> <td>code.google.com/p/go.crypto/openpgp/packet</tr>
-<tr><td>crypto/openpgp/s2k</td> <td>code.google.com/p/go.crypto/openpgp/s2k</tr>
-<tr><td>crypto/ripemd160</td> <td>code.google.com/p/go.crypto/ripemd160</tr>
-<tr><td>crypto/twofish</td> <td>code.google.com/p/go.crypto/twofish</tr>
-<tr><td>crypto/xtea</td> <td>code.google.com/p/go.crypto/xtea</tr>
-<tr><td>exp/ssh</td> <td>code.google.com/p/go.crypto/ssh</tr>
+<tr><td>crypto/bcrypt</td> <td>github.com/hashicorp/go.crypto/bcrypt</tr>
+<tr><td>crypto/blowfish</td> <td>github.com/hashicorp/go.crypto/blowfish</tr>
+<tr><td>crypto/cast5</td> <td>github.com/hashicorp/go.crypto/cast5</tr>
+<tr><td>crypto/md4</td> <td>github.com/hashicorp/go.crypto/md4</tr>
+<tr><td>crypto/ocsp</td> <td>github.com/hashicorp/go.crypto/ocsp</tr>
+<tr><td>crypto/openpgp</td> <td>github.com/hashicorp/go.crypto/openpgp</tr>
+<tr><td>crypto/openpgp/armor</td> <td>github.com/hashicorp/go.crypto/openpgp/armor</tr>
+<tr><td>crypto/openpgp/elgamal</td> <td>github.com/hashicorp/go.crypto/openpgp/elgamal</tr>
+<tr><td>crypto/openpgp/errors</td> <td>github.com/hashicorp/go.crypto/openpgp/errors</tr>
+<tr><td>crypto/openpgp/packet</td> <td>github.com/hashicorp/go.crypto/openpgp/packet</tr>
+<tr><td>crypto/openpgp/s2k</td> <td>github.com/hashicorp/go.crypto/openpgp/s2k</tr>
+<tr><td>crypto/ripemd160</td> <td>github.com/hashicorp/go.crypto/ripemd160</tr>
+<tr><td>crypto/twofish</td> <td>github.com/hashicorp/go.crypto/twofish</tr>
+<tr><td>crypto/xtea</td> <td>github.com/hashicorp/go.crypto/xtea</tr>
+<tr><td>exp/ssh</td> <td>github.com/hashicorp/go.crypto/ssh</tr>
 <tr>
 <td colspan="2"><hr></td>
 </tr>
-<tr><td>image/bmp</td> <td>code.google.com/p/go.image/bmp</tr>
-<tr><td>image/tiff</td> <td>code.google.com/p/go.image/tiff</tr>
+<tr><td>image/bmp</td> <td>github.com/hashicorp/go.image/bmp</tr>
+<tr><td>image/tiff</td> <td>github.com/hashicorp/go.image/tiff</tr>
 <tr>
 <td colspan="2"><hr></td>
 </tr>
-<tr><td>net/dict</td> <td>code.google.com/p/go.net/dict</tr>
-<tr><td>net/websocket</td> <td>code.google.com/p/go.net/websocket</tr>
-<tr><td>exp/spdy</td> <td>code.google.com/p/go.net/spdy</tr>
+<tr><td>net/dict</td> <td>github.com/hashicorp/go.net/dict</tr>
+<tr><td>net/websocket</td> <td>github.com/hashicorp/go.net/websocket</tr>
+<tr><td>exp/spdy</td> <td>github.com/hashicorp/go.net/spdy</tr>
 <tr>
 <td colspan="2"><hr></td>
 </tr>
-<tr><td>encoding/git85</td> <td>code.google.com/p/go.codereview/git85</tr>
-<tr><td>patch</td> <td>code.google.com/p/go.codereview/patch</tr>
+<tr><td>encoding/git85</td> <td>github.com/hashicorp/go.codereview/git85</tr>
+<tr><td>patch</td> <td>github.com/hashicorp/go.codereview/patch</tr>
 <tr>
 <td colspan="2"><hr></td>
 </tr>
-<tr><td>exp/wingui</td> <td>code.google.com/p/gowingui</tr>
+<tr><td>exp/wingui</td> <td>github.com/hashicorp/gowingui</tr>
 </table>
 
 <p>
@@ -1850,7 +1850,7 @@ The compiler will catch code using the old interface.
 The <a href="/pkg/regexp/"><code>regexp</code></a> package has been rewritten.
 It has the same interface but the specification of the regular expressions
 it supports has changed from the old "egrep" form to that of
-<a href="http://code.google.com/p/re2/">RE2</a>.
+<a href="http://github.com/hashicorp/re2/">RE2</a>.
 </p>
 
 <p>
@@ -2080,7 +2080,7 @@ package <a href="/pkg/reflect/"><code>reflect</code></a>.
 <em>Updating</em>:
 Code using these functions must be rewritten to use
 package <a href="/pkg/reflect/"><code>reflect</code></a>.
-The changes to <a href="http://code.google.com/p/go/source/detail?r=2646dc956207">encoding/gob</a> and the <a href="http://code.google.com/p/goprotobuf/source/detail?r=5340ad310031">protocol buffer library</a>
+The changes to <a href="http://github.com/hashicorp/go/source/detail?r=2646dc956207">encoding/gob</a> and the <a href="http://github.com/hashicorp/goprotobuf/source/detail?r=5340ad310031">protocol buffer library</a>
 may be helpful as examples.
 </p>
 
@@ -2203,14 +2203,14 @@ They are available for many combinations of architecture and operating system
 Installation details are described on the
 <a href="/doc/install">Getting Started</a> page, while
 the distributions themselves are listed on the
-<a href="http://code.google.com/p/go/downloads/list">downloads page</a>.
+<a href="http://github.com/hashicorp/go/downloads/list">downloads page</a>.
 
 
 </div>
 
 <div id="footer">
 Build version go1.0.1.<br>
-Except as <a href="http://code.google.com/policies.html#restrictions">noted</a>,
+Except as <a href="http://github.com/hashicorpolicies.html#restrictions">noted</a>,
 the content of this page is licensed under the
 Creative Commons Attribution 3.0 License,
 and code is licensed under a <a href="/LICENSE">BSD license</a>.<br>
